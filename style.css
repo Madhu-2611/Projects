@@ -1,0 +1,187 @@
+
+
+body {
+  font-size: 16px;
+  background: linear-gradient(to right yellow,pink);
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+header {
+  background-color: white; 
+  color: white; 
+  padding: 20px; 
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline; 
+  margin-right: 80px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: black;
+}
+
+@media (max-width: 767px) {
+  nav a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav a {
+    font-size: 18px;
+  }
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+ .image-container {
+  width: 1350px; 
+  margin: 0px; 
+  padding: 0px; 
+  text-align:left; 
+}
+
+
+.image-container img {
+  display: block;
+  width: 1350px;
+  height: 600px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image-container{
+  position: relative;
+  width: 1200px;
+}
+
+.text-box{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  background-color:rgba(239,83 ,80 ,0.5) ;
+  color: white;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.bg-gradiant{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right,#ff69b4,#ffcc66) ;
+}
+
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: white;
+  width: 300px;
+  height: 400px;
+  margin: 40px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius:0px ;
+  border-bottom-left-radius: 40px;
+}
+
+.card-image{
+  background-image: center;
+  height: 50%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  padding: 5px;
+   
+}
+
+.food-1{
+  background-image: url("file:///C:/Users/Admin/Pictures/img4.jpg");
+}
+
+.food-2{
+  background-image: url("file:///C:/Users/Admin/Pictures/img2.jpg");
+}
+
+.food-3{
+  background-image: url("file:///C:/Users/Admin/Pictures/img31%20(2).jpg");
+}
+
+.card:hover{
+  background-color: rgba(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.card h4{
+  text-align: center;
+  font-family: trebuchet ms,helvetica,sans-serif;
+}
+
+.card p{
+  text-align: center;
+}
+
+.pill{
+  text-decoration-color: white;
+  display: block;
+  background:#dddddd;
+  margin-left: 45%;
+  bottom: 100%;
+  font-size: 20px;
+  font-family: trebuchet ms,helvetica,sans-serif;,sans-serif;
+  border-radius: 1em;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+
