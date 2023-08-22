@@ -142,15 +142,15 @@ nav a:hover {
 }
 
 .food-1{
-  background-image: url("img4.jpg");
+  background-image: url("./img4.jpg");
 }
 
 .food-2{
-  background-image: url("img2.jpg");
+  background-image: url("./img2.jpg");
 }
 
 .food-3{
-  background-image: url("img31.jpg");
+  background-image: url("./img31.jpg");
 }
 
 .card:hover{
